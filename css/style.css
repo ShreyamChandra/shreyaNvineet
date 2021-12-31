@@ -44,7 +44,24 @@
         flex-direction: column;
     }
     .burger{
-        display: block;
+        display: block !important;
+    }
+
+    .h-nav{
+        height: 70px;
+    }
+
+    .v-class{
+        opacity: 0;
+    }
+    .dp{
+        width: 80% !important;
+    }
+    .member-family{
+        width: 80% !important;
+    }
+    .member-family-2{
+        width: 80% !important;
     }
 }
 
@@ -96,7 +113,7 @@
 
 .line{
     width: 33px;
-    background-color: beige;
+    background-color: rgb(163, 61, 61);   
     height: 4px;
     margin: 5px 3px;
 }
